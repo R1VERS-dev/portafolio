@@ -1,0 +1,41 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="woodGrain" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#2d1810"/>
+      <path d="M0,20 Q25,10 50,20 T100,20" stroke="#3d2417" stroke-width="1" fill="none" opacity="0.6"/>
+      <path d="M0,40 Q25,35 50,40 T100,40" stroke="#4d2f1a" stroke-width="1" fill="none" opacity="0.8"/>
+      <path d="M0,60 Q25,55 50,60 T100,60" stroke="#3d2417" stroke-width="1" fill="none" opacity="0.7"/>
+      <path d="M0,80 Q25,75 50,80 T100,80" stroke="#5d3f2a" stroke-width="1" fill="none" opacity="0.5"/>
+      <ellipse cx="30" cy="30" rx="8" ry="4" fill="#1d0f08" opacity="0.3"/>
+      <ellipse cx="70" cy="70" rx="6" ry="3" fill="#1d0f08" opacity="0.4"/>
+    </pattern>
+    <linearGradient id="woodShading" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4d2f1a;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#2d1810;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#1d0f08;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Base wood texture -->
+  <rect width="1920" height="1080" fill="url(#woodGrain)"/>
+  
+  <!-- Overlay for depth -->
+  <rect width="1920" height="1080" fill="url(#woodShading)"/>
+  
+  <!-- Additional wood grain details -->
+  <g opacity="0.3">
+    <path d="M0,200 Q480,150 960,200 T1920,200" stroke="#5d3f2a" stroke-width="2" fill="none"/>
+    <path d="M0,400 Q480,350 960,400 T1920,400" stroke="#3d2417" stroke-width="2" fill="none"/>
+    <path d="M0,600 Q480,550 960,600 T1920,600" stroke="#4d2f1a" stroke-width="2" fill="none"/>
+    <path d="M0,800 Q480,750 960,800 T1920,800" stroke="#2d1810" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Subtle knots and imperfections -->
+  <g opacity="0.2">
+    <circle cx="300" cy="250" r="15" fill="#1d0f08"/>
+    <circle cx="800" cy="450" r="12" fill="#1d0f08"/>
+    <circle cx="1400" cy="700" r="18" fill="#1d0f08"/>
+    <ellipse cx="600" cy="600" rx="20" ry="8" fill="#1d0f08"/>
+    <ellipse cx="1200" cy="300" rx="15" ry="6" fill="#1d0f08"/>
+  </g>
+</svg>
