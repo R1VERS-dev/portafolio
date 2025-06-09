@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Ugalde Rios - Desarrollador de Software</title>
+    <meta name="description" content="Portafolio profesional de Gustavo Ugalde Rios, Ingeniero en Software y Sistemas Computacionales">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Gustavo Ugalde</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#certifications" class="nav-link">Certificaciones</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+                <li class="theme-toggle-wrapper">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="profile-container animate-fade-in">
+                <div class="profile-image">
+                    <img src="assets/profile-photo.jpg" alt="Gustavo Ugalde Rios" id="profile-img">
+                </div>
+            </div>
+            <div class="hero-text animate-slide-up">
+                <h1 class="hero-title">
+                    <span class="highlight">Gustavo</span> Ugalde Rios
+                </h1>
+                <h2 class="hero-subtitle">Desarrollador de Software</h2>
+                <p class="hero-description">
+                    Desarrollo soluciones tecnológicas, landing pages, y administro servidores Linux 
+                    con enfoque en automatización, virtualización y despliegue remoto.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary animate-bounce">
+                        <i class="fas fa-envelope"></i>
+                        Contactar
+                    </a>
+                    <a href="#about" class="btn-secondary">
+                        <i class="fas fa-user"></i>
+                        Conocer más
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card animate-slide-left">
+                        <h3>Formación Profesional</h3>
+                        <p>
+                            Ingeniero en Software y Sistemas Computacionales con sólida experiencia 
+                            en desarrollo de software y administración de servidores. Mi formación me 
+                            ha permitido dominar diversas tecnologías y metodologías de desarrollo.
+                        </p>
+                    </div>
+                    <div class="about-card animate-slide-right">
+                        <h3>Experiencia Técnica</h3>
+                        <p>
+                            Especializado en desarrollo de software, administración de servidores Linux, 
+                            automatización de procesos y virtualización. Experiencia práctica en 
+                            despliegue remoto y configuración de infraestructura tecnológica.
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-personal">
+                    <h3>Habilidades Personales</h3>
+                    <div class="skills-personal-content">
+                        <div class="skills-image">
+                            <img src="assets/soft-skills.jpg" alt="Habilidades Blandas" class="soft-skills-image">
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-users"></i>
+                                <span>Liderazgo</span>
+                            </div>
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-handshake"></i>
+                                <span>Conexión con personas</span>
+                            </div>
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-people-group"></i>
+                                <span>Trabajo colaborativo</span>
+                            </div>
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-comments"></i>
+                                <span>Comunicación efectiva</span>
+                            </div>
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-medal"></i>
+                                <span>Responsabilidad</span>
+                            </div>
+                            <div class="skill-item animate-fade-in">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Aprendizaje continuo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-wrapper" id="carousel">
+                <div class="carousel-slide active">
+                    <img src="assets/project-carousel/project1.svg" alt="Proyecto 1">
+                    <div class="slide-overlay">
+                        <h3>Desarrollo de Software</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/project-carousel/project2.svg" alt="Proyecto 2">
+                    <div class="slide-overlay">
+                        <h3>Administración Linux</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/project-carousel/project3.svg" alt="Proyecto 3">
+                    <div class="slide-overlay">
+                        <h3>Automatización</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators" id="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-scale">
+                    <div class="project-image">
+                        <img src="assets/parking-system.png" alt="Sistema de Estacionamiento UCQ">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Estacionamiento UCQ</h3>
+                        <p>Sistema integral para la gestión de estacionamiento universitario con control de acceso y monitoreo en tiempo real.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-scale">
+                    <div class="project-image">
+                        <img src="assets/warmaze-app.png" alt="App WARMAZE">
+                    </div>
+                    <div class="project-content">
+                        <h3>App WARMAZE</h3>
+                        <p>Aplicación móvil innovadora con interfaces intuitivas y funcionalidades avanzadas para la experiencia del usuario.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AppInventor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-scale">
+                    <div class="project-image">
+                        <img src="assets/landing-pages.jpg" alt="Landing Pages Personalizadas">
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Pages Personalizadas</h3>
+                        <p>Desarrollo de páginas web profesionales y responsivas con diseños modernos y optimización SEO.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-scale">
+                    <div class="project-image">
+                        <img src="assets/cetis-website.png" alt="Página CETIS 142">
+                    </div>
+                    <div class="project-content">
+                        <h3>Página CETIS 142</h3>
+                        <p>Plataforma web para mostrar proyectos técnicos institucionales con galería interactiva y sistema de gestión.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-scale">
+                    <div class="project-image">
+                        <img src="assets/linux-servers.jpg" alt="Servidor Linux desde Cero">
+                    </div>
+                    <div class="project-content">
+                        <h3>Servidor Linux desde Cero</h3>
+                        <p>Configuración y despliegue completo de servidor Linux con virtualización, automatización y seguridad avanzada.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Bash</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="tech-skills-layout">
+                <div class="tech-workspace-image">
+                    <img src="assets/tech-workspace.jpg" alt="Espacio de Trabajo Técnico" class="workspace-image">
+                </div>
+                <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-tags">
+                        <div class="skill-tag animate-bounce" data-delay="0.1s">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.2s">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.3s">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Frameworks</h3>
+                    <div class="skills-tags">
+                        <div class="skill-tag animate-bounce" data-delay="0.4s">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.5s">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.6s">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Bases de Datos & DevOps</h3>
+                    <div class="skills-tags">
+                        <div class="skill-tag animate-bounce" data-delay="0.7s">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.8s">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-tag animate-bounce" data-delay="0.9s">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Sistemas Operativos</h3>
+                    <div class="skills-tags">
+                        <div class="skill-tag animate-bounce" data-delay="1.0s">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificaciones y Diplomado</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Curador de Datos</h3>
+                    <p>Gestión y organización de información</p>
+                </div>
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Tester</h3>
+                    <p>Pruebas de software y calidad</p>
+                </div>
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Gestor de Imagen Web</h3>
+                    <p>Diseño y experiencia digital</p>
+                </div>
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Finder</h3>
+                    <p>Investigación y análisis de datos</p>
+                </div>
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Desarrollador de Contenido Digital</h3>
+                    <p>Creación de contenido multimedia</p>
+                </div>
+                <div class="certification-badge animate-flip">
+                    <div class="badge-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Asistente Web</h3>
+                    <p>Soporte técnico y mantenimiento</p>
+                </div>
+                <div class="certification-diploma animate-scale">
+                    <div class="diploma-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Diplomado en Integridad Web</h3>
+                    <p>Programa especializado en desarrollo web integral y mejores prácticas de la industria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item animate-slide-left">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <a href="https://instagram.com/rios_ug" target="_blank">@rios_ug</a>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-slide-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Correo</h3>
+                            <a href="mailto:gusuug@gmail.com">gusuug@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-slide-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Teléfono</h3>
+                            <a href="tel:4141126258">414 112 6258</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container animate-slide-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-message">
+                    <h3>Gracias por visitar mi portafolio</h3>
+                    <p>Siempre dispuesto a nuevos desafíos y oportunidades de colaboración</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://instagram.com/rios_ug" target="_blank" class="footer-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="tel:4141126258" class="footer-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gustavo Ugalde Rios. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

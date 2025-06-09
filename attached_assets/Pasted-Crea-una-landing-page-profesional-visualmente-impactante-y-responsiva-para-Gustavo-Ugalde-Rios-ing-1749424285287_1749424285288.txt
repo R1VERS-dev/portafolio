@@ -1,0 +1,60 @@
+Crea una landing page profesional, visualmente impactante y responsiva para Gustavo Ugalde Rios, ingeniero en Software y Sistemas Computacionales. El sitio debe servir como su portafolio, carta de presentación y CV digital.
+
+Estilo visual:
+- Diseño moderno, llamativo y elegante.
+- Efectos parallax, animaciones suaves (aparición, desaparición, cambios de tamaño y color).
+- Estética profesional con detalles inspirados en madera clara u oscura.
+- Paleta de colores oscuros con acento azul.
+- 100% responsive, navegable y compatible con GitHub Pages.
+- Todo en HTML, CSS y JavaScript puro (sin frameworks como React, Tailwind o Node.js).
+
+Contenido y estructura del sitio:
+
+1. **Hero con efecto parallax**:
+- Fondo con textura de madera elegante.
+- Foto de Gustavo como punto focal.
+- Nombre completo y título: “Desarrollador de Software”.
+- Descripción breve: “Desarrollo soluciones tecnológicas, landing pages, y administro servidores Linux con enfoque en automatización, virtualización y despliegue remoto.”
+- Botón animado de contacto.
+
+2. **Sobre mí**:
+- Formación como Ingeniero en Software y Sistemas Computacionales.
+- Experiencia general en desarrollo de software, administración de servidores, y uso de distribuciones Linux.
+- Habilidades personales destacadas: liderazgo, facilidad para conectar con personas, trabajo colaborativo, comunicación efectiva, responsabilidad y aprendizaje continuo.
+- Estilo visual profesional, con elementos suaves y cálidos.
+
+3. **Carrusel automático de imágenes**:
+- Imágenes que reflejen proyectos, entorno de trabajo, entornos Linux o terminal, y capturas visuales de interfaces o resultados.
+- Carrusel con transición automática cada 4–5 segundos.
+
+4. **Proyectos destacados**:
+- Sistema de estacionamiento para la UCQ.
+- App WARMAZE.
+- Landing Pages personalizadas.
+- Página para mostrar proyectos técnicos del CETIS 142.
+- Configuración y despliegue de un servidor Linux desde cero.
+Cada proyecto en una tarjeta animada con título, descripción y botón “Ver más”.
+
+5. **Certificaciones y Diplomado**:
+- Curador de datos.
+- Tester.
+- Gestor de imagen web.
+- Finder.
+- Desarrollador de contenido digital.
+- Asistente web.
+- Diplomado en Integridad Web.
+Diseñados con badges visuales, íconos o tarjetas.
+
+6. **Habilidades técnicas**:
+- HTML, CSS, JavaScript, C++, Python, Laravel, Docker, PostgreSQL, Git, y sistemas Linux.
+- Mostrar como íconos o etiquetas animadas.
+
+7. **Contacto**:
+- Instagram (única red social).
+- Teléfono: 4141126258.
+- Formulario con nombre, correo electrónico y mensaje.
+
+8. **Footer**:
+- Mensaje de cierre tipo “Gracias por visitar mi portafolio” y enlaces de contacto.
+
+Este sitio debe ser generado en HTML, CSS y JS puro, exportable como sitio estático para subir a GitHub Pages.
